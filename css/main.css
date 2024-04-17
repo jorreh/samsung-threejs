@@ -1,0 +1,275 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: none; }
+
+q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+@font-face {
+  font-family: "SamsungSharpSansBd-webfont";
+  src: url("../fonts/SamsungSharpSansBd-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SamsungOne-450c-webfont";
+  src: url("../fonts/samsungone-450c-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SamsungOne-800-webfont";
+  src: url("../fonts/samsungone-800-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+body {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner {
+  position: relative;
+  box-sizing: content-box;
+  border: 2px solid #AAA;
+  overflow: hidden; }
+  .banner.s21 {
+    width: 300px;
+    height: 600px; }
+  .banner.s21plus {
+    width: 300px;
+    height: 250px; }
+  .banner.s21ultra {
+    width: 970px;
+    height: 250px; }
+
+.assets {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px; }
+
+/*
+.title {
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  right: 20px;
+  font-family: "SamsungSharpSansBd-webfont";
+  font-size: 15px;
+}
+
+.cta {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 1000px;
+  left: 20px;
+  top: 540px;
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    stroke: #000;
+    stroke-width: 4px;
+    fill: none;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.copy {
+  position: absolute;
+  left: 20px;
+  width: 260px;
+
+  &--1 {
+    font-size: 18px;
+    top: 455px;
+    font-family: "SamsungOne-800-webfont";
+  }
+
+  &--2 {
+    font-size: 16px;
+    top: 478px;
+    font-family: "SamsungOne-450c-webfont";
+  }
+}
+
+.samsung_logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  z-index: 100;
+
+  width: 72px;
+  height: 15px;
+  fill: #000;
+}
+*/
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  width: 18px;
+  height: 18px; }
+  .arrow svg {
+    width: 100%;
+    height: 100%;
+    stroke: #000;
+    stroke-width: 4px;
+    fill: none; }
+  .arrow--left {
+    bottom: 15px;
+    left: calc(50% - 50px);
+    transform: scale(1.4) rotate(180deg); }
+  .arrow--right {
+    bottom: 14px;
+    left: calc(50% + 34px);
+    transform: scale(1.4); }
+
+.rotate {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 32px;
+  height: auto; }
+
+.container3D {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+  .s21ultra .container3D {
+    left: 0px;
+    width: 440px;
+    height: 250px; }
